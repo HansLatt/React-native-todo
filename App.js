@@ -23,6 +23,8 @@ export default function App() {
       {/* Tasks for today */}
       <View style={styles.tasksWrapper}>
         <Text style={styles.sectionTitle}>Tasks for today</Text>
+        <Text>Hold left-click to delete</Text>
+
 
         <View style={styles.items}>
          {
@@ -73,7 +75,7 @@ const styles = StyleSheet.create({
     width: '100%',
     flexDirection: 'row',
     justifyContent: 'space-around',
-    alignItems: 'center'
+    alignItems: 'center',
   },
   input: {
     paddingVertical: 15,
